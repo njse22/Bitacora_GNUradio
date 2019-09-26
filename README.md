@@ -1,6 +1,18 @@
 # Bitacora GNUradio
 Bitacora del trabajo realizado con GNUradio en el grupo i2t 
 
+## ¿Qué es GNUradio? 
+
+[GNUradio](https://www.gnuradio.org/) es un software [opensource](https://opensource.com/resources/what-open-source) para el procesamiento de señales
+
+
+## Trabajo con FM 
+
+El primer proyecto trabajado con GNUradio fue el relacionado con FM para esta primer
+proyecto se consulto con diferentes fuentes biograficas
+
+
+
 ## Trabajo con DRM (digital Radio Moundiale)
 
 ### fase de transmisión 
