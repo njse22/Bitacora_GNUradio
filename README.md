@@ -9,7 +9,9 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 ## Trabajo con FM 
 
 El primer proyecto trabajado con GNUradio fue el relacionado con FM para esta primer
-proyecto se consulto con diferentes fuentes biograficas
+proyecto se consulto con diferentes fuentes biográficas entre ellas la de la página oficial de GNU Radio, principalmente.
+
+Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials) 
 
 
 
@@ -36,8 +38,12 @@ nuestro caso se quería escuchar una emisora que no estaba en dicha lista (por n
 registrada y porque el estándar DRM no esta implementado en Colombia) debido a esto se
 busco otra alternativa. 
 
-como segunda alternativa se estudió la opción de trabajar con el [Gqrx](http://gqrx.dk/) 
-
+como segunda alternativa se estudió la opción de trabajar con el [Gqrx](http://gqrx.dk/) integrado con  [IT++](http://itpp.sourceforge.net/4.3.1/), [mbelib](https://github.com/szechyjs/mbelib), [dsd](https://github.com/szechyjs/dsd)
+esto basado en el proyecto [Digital Speech Decoder](https://www.george-smart.co.uk/scrapbook/digital_speech_decoder/), ya que esta implementación fue hecha en Xubuntu 14 (y ya que la misma fallo en Ubuntu 18) se decidió crear una maquina virtual con
+dicho sistema operativo, la instalación de todos los software de este proyecto fue exitosa sin embargo a la hora de ejecutar
+Gqrx el mismo fallo esto debido posiblemente a que la versión instalada del mismo no haya sido compatible con la versión del 
+sistema operativo, por esta razón y ya que trabajar en un sistema operativo del año 2014, resulta un poco arcaico, se decidió 
+abandonar esta opción.
 
 Otra de las alternativas probadas para esta fase fue la de utilizar el software [sodiraSDR](http://dsp4swls.de/sodirasdr/sodirasdreng.html), 
 en este caso el software es un .exe por este motivo se decidió utilizar [wine](https://www.winehq.org/) la guía de como se instalo el sofware [aquí](documentos/installSodiraSDR.md)
