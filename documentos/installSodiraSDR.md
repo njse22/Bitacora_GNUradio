@@ -9,11 +9,10 @@
 6. en la consola estando en el directorio de instalación escribir:
  `sudo unzip sodiraSDR.zip` para descomprimir el archivo
 7. para nuestro caso utilizaremos el RTL-SDR para utilizarlo con sodira descargue [este](ExtIO_RTL2832.dll) archivo, en caso tal de que usted vaya a utilizar otro sdr 
-consulte [aquí](http://www.hdsdr.de/hardware.html) el archivo o libreria indicado para su sdr 
-8. En la carpeta que se genero después de descomprimir el .zip del paso 6 escriva en 
+consulte [aquí](http://www.hdsdr.de/hardware.html) el archivo o librería indicado para su sdr 
+8. En la carpeta que se genero después de descomprimir el .zip del paso 6 escriba en 
 consola `wine sodiraSRD.exe` para ejecutar el programa.
 9. en la pestaña de configuración del programa seleccione *ExtIO Receiver* 
 10. habilite la opción *Using ExtIO receiver*
-11. de click en el boton *Select ExtIO* y seleccione el archivo del paso 7, ahora
-presione el boton *Load + Start*
-
+11. de click en el botón *Select ExtIO* y seleccione el archivo del paso 7, ahora
+presione el botón *Load + Start*
