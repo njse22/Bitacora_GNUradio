@@ -36,4 +36,9 @@ nuestro caso se quería escuchar una emisora que no estaba en dicha lista (por n
 registrada y porque el estándar DRM no esta implementado en Colombia) debido a esto se
 busco otra alternativa. 
 
-como segunda alternativa se miro la opción de trabajar con el [Gqrx](http://gqrx.dk/) 
+como segunda alternativa se estudió la opción de trabajar con el [Gqrx](http://gqrx.dk/) 
+
+
+Otra de las alternativas probadas para esta fase fue la de utilizar el software [sodiraSDR](http://dsp4swls.de/sodirasdr/sodirasdreng.html), 
+en este caso el software es un .exe por este motivo se decidió utilizar [wine](https://www.winehq.org/) la guía de como se instaló wine en el equipo [aquí]()
+
