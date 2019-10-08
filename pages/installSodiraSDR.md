@@ -1,7 +1,7 @@
 # Instalación de sodira en Ubuntu 18.04 LTS
 
 1. Abrir la consola de comandos con `Ctrl + Alt + T`
-2. Escribir `sudo apt install wine-wine64-development`
+2. Escribir `sudo apt install wine-stable`
 3. Ir a la página web de [sodiraSDR](http://dsp4swls.de/sodirasdr/sodirasdreng.html)
 4. Descargar el archivo .zip 
 5. Para nuestro ejemplo instalaremos el archivo en la siguiente dirección:
