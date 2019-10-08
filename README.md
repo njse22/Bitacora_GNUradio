@@ -40,6 +40,6 @@ como segunda alternativa se estudió la opción de trabajar con el [Gqrx](http:/
 
 
 Otra de las alternativas probadas para esta fase fue la de utilizar el software [sodiraSDR](http://dsp4swls.de/sodirasdr/sodirasdreng.html), 
-en este caso el software es un .exe por este motivo se decidió utilizar [wine](https://www.winehq.org/) la guía de como se instalo el sofware [aquí](documentos/installSodiraSDR.md)
+en este caso el software es un .exe por este motivo se decidió utilizar [wine](https://www.winehq.org/) la guía de como se instalo el sofware [aquí](pages/installSodiraSDR.md)
 
 
