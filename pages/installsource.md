@@ -31,10 +31,10 @@ Para instalar las copie la siguiente linea de comando en su consola:
 `git clone --recursive https://github.com/gnuradio/gnuradio.git`
 
 2. escribimos los siguientes comandos: 
-`cd gnuradio
-mkdir build
-cd build
-cmake ../
+`cd gnuradio &&
+mkdir build &&
+cd build &&
+cmake ../ &&
 make`
 
 3. escribimos en consola `make test` la consola nos dirá que todo el proceso fue exitoso, en caso contrario habría que revisar 
