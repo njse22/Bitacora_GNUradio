@@ -23,7 +23,7 @@ GNU Rdaio tiene las siguientes dependencias:
 
 Para instalar las copie la siguiente linea de comando en su consola: 
 
-`sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libcomedi-dev libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins python3-zmq`
+`sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libcomedi-dev libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins python3-zmq python3-gi python3-gi-cairo gir1.2-gtk-3.0 python-cheetah`
  
 ## Instalar GNU Radio 
 
@@ -31,11 +31,15 @@ Para instalar las copie la siguiente linea de comando en su consola:
 `git clone --recursive https://github.com/gnuradio/gnuradio.git`
 
 2. escribimos los siguientes comandos: 
-`cd gnuradio &&
-mkdir build &&
-cd build &&
-cmake ../ &&
+`cd gnuradio
+mkdir build 
+cd build
+cmake ../
 make`
+
+*NOTA:*
+Luego de haber ejecutado `cmake ../` asegurece de que la sección `Gnuradio disabled components` este vacia es decir que todas
+las librerías esten habilitadas 
 
 3. escribimos en consola `make test` la consola nos dirá que todo el proceso fue exitoso, en caso contrario habría que revisar 
 que fue lo que fallo en medio del proceso, corregirlo y volver a instalar 
