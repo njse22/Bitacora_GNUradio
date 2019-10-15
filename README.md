@@ -5,6 +5,8 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 
 [GNUradio](https://www.gnuradio.org/) es un software [opensource](https://opensource.com/resources/what-open-source) para el procesamiento de señales
 
+[instalar](pages/installsource.md)
+
 
 ## Trabajo con FM 
 
