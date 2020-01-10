@@ -1,4 +1,4 @@
-#instalación de pybombs 
+### instalación de pybombs 
 
 para la instalación de gnuradio-3.7 via pybombs puede utilizar el siguiente [script](Bitacora_GNUradio/documentos/install-gnuradio-3.7.sh) el cual instalará: 
 
