@@ -7,10 +7,17 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 
 ## Trabajo con FM 
 
+### Receptor de FM
+
 El primer proyecto trabajado con GNUradio fue el relacionado con FM para esta primer
 proyecto se consulto con diferentes fuentes biográficas entre ellas la de la página oficial de GNU Radio, principalmente.
 
 Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials) 
+
+### Transmisor FM 
+
+La segunda parte del proyecto consistion en la implementación del transmisor de FM para el cual se utilizó la USRP B210 el resultado de este se encuentra en este [repositorio](agregar enlace)
+
 
 ## Trabajo con DRM (digital Radio Moundiale)
 
