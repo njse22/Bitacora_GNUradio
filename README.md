@@ -9,7 +9,7 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 
 ### Receptor de FM
 
-El primer proyecto trabajado con GNUradio fue el relacionado con FM para esta primer
+El primer proyecto trabajado con GNUradio fue el relacionado con FM para este primer
 proyecto se consulto con diferentes fuentes biográficas entre ellas la de la página oficial de GNU Radio, principalmente.
 
 Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials), el resultado final de este trabajo con la USRP B200 y la librería grafica gr-fosphor: 
@@ -18,7 +18,7 @@ Para el primer proyecto, se planteo la implementación de un receptor de FM, se 
 
 ### Transmisor FM 
 
-La segunda parte del proyecto consistion en la implementación del transmisor de FM para el cual se utilizó la USRP B200, para esto se partio de la idea de recrear el proceso inverso del trabajo anterior. 
+La segunda parte del proyecto consistió en la implementación del transmisor de FM para el cual se utilizó la USRP B200, para esto se partio de la idea de recrear el proceso inverso del trabajo anterior. 
 
 
 ## Trabajo con DRM (digital Radio Moundiale)
@@ -26,9 +26,9 @@ La segunda parte del proyecto consistion en la implementación del transmisor de
 ### fase de transmisión 
 
 para la primera parte de esta sección se comenzó con la integración de la libreria
-[gr-drm](https://github.com/kit-cel/gr-drm) creada por [KIT](https://www.kit.edu/english/), después de haver instalado la libreria se trabajo en base este
+[gr-drm](https://github.com/kit-cel/gr-drm) creada por [KIT](https://www.kit.edu/english/), después de haber instalado la librería se trabajo en base este
  [documento](documentos/drm_transmitter_gnuradio.pdf) para crear el flujo en GNUradio el resultado de este trabajo fue [este](documentos/drm-transmiter.grc), después de esto se 
-busco diferentes [archivos de audio](audio_sources) para probar la transmisión.
+buscó diferentes [archivos de audio](audio_sources) para probar la transmisión.
 
 Se comprobó con ayuda del analizador de señales que efectivamente la transmisión de la 
 señal fue exitosa y se procedió con la siguiente fase   
