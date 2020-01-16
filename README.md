@@ -12,11 +12,13 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 El primer proyecto trabajado con GNUradio fue el relacionado con FM para esta primer
 proyecto se consulto con diferentes fuentes biográficas entre ellas la de la página oficial de GNU Radio, principalmente.
 
-Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials) 
+Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials), el resultado final de este trabajo con la USRP B200 y la librería grafica gr-fosphor: 
+
+![receptor](resources/FM.jpeg)
 
 ### Transmisor FM 
 
-La segunda parte del proyecto consistion en la implementación del transmisor de FM para el cual se utilizó la USRP B210 el resultado fue el siguiente:
+La segunda parte del proyecto consistion en la implementación del transmisor de FM para el cual se utilizó la USRP B200, para esto se partio de la idea de recrear el proceso inverso del trabajo anterior. 
 
 
 ## Trabajo con DRM (digital Radio Moundiale)
@@ -39,6 +41,10 @@ para esta fase se uso la rama del proyecto [gr-drm](https://github.com/kit-cel/g
 2. cambiar la rama del proyecto a `drmrx`
 3. hacer `merge` entre las ramas `drmrx` y `master` 
 4. instalar la librería 
+
+una vez instalada el resultado de la recepción fue el siguiente: 
+
+![drmrx](resources/drmrx.gif)
 
 ### Sugerencias: 
 
