@@ -6,5 +6,3 @@ para la instalación de gnuradio-3.7 via pybombs puede utilizar el siguiente [sc
 - UHD-3.15.LTS
 - gnuradio-3.7
 - gr-drm
-
-con sus respectivas dependencias dependencias 
