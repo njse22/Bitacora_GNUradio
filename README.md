@@ -3,14 +3,14 @@ Bitacora del trabajo realizado con GNUradio en el grupo i2t
 
 ## ¿Qué es GNUradio? 
 
-[GNUradio](https://www.gnuradio.org/) es un software [opensource](https://opensource.com/resources/what-open-source) para el procesamiento de señales, para la instalación de este en Ubuntu 18.04 LTS via pybombs puede revizar el siguiente [enlace](pages/pybombs.md)
+[GNUradio](https://www.gnuradio.org/) es un software [opensource](https://opensource.com/resources/what-open-source) para el procesamiento de señales, para la instalación de este en Ubuntu 18.04 LTS via pybombs puede revisar el siguiente [enlace](pages/pybombs.md)
 
 ## Trabajo con FM 
 
 ### Receptor de FM
 
 El primer proyecto trabajado con GNUradio fue el relacionado con FM para este primer
-proyecto se consulto con diferentes fuentes biográficas entre ellas la de la página oficial de GNU Radio, principalmente.
+proyecto se consulto con diferentes fuentes bibliográficas entre ellas la de la página oficial de GNU Radio, principalmente.
 
 Para el primer proyecto, se planteo la implementación de un receptor de FM, se recomienda que para esta parte se familiarice con la interfaz de GNU Radio companion, para esto puede revisar el siguiente [enlace](https://wiki.gnuradio.org/index.php/Tutorials), el resultado final de este trabajo con la USRP B200 y la librería grafica gr-fosphor: 
 
