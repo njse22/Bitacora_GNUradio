@@ -48,4 +48,4 @@ una vez instalada el resultado de la recepción fue el siguiente:
 
 ### Sugerencias: 
 
-1. Al ejecutar gnuradio-companion hagalo con: `pybombs run gnuradio-companion` para que todas las librearias funcionen de forma correcta (asegurandose estar ejecuando el prefix de gnuradio-3.7)
+1. Al ejecutar gnuradio-companion hagalo con: `pybombs run gnuradio-companion` para que todas las librerías funcionen de forma correcta (asegurandose estar ejecuando el prefix de gnuradio-3.7)
