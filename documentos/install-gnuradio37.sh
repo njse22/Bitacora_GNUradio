@@ -18,19 +18,10 @@ pybombs auto-config
 #modified repository
 pybombs recipes add gr-recipes git+https://github.com/njse22/gr-recipes.git
 pybombs recipes add gr-etcetera git+https://github.com/gnuradio/gr-etcetera.git
-pybombs prefix init ~/Software/pybombs/gnuradio-3.7 -a gr37
-
-# 3. install uhd
-
-pybombs install uhd
-
-# 4. install gnuradio-3.7
-
-pybombs install gnuradio37
+pybombs prefix init ~/../pybombs/gr37 -R gnuradio-stable
 
 # 5. install gr-drm 
-
-cd ~/Software/pybombs/gnuradio-3.7/src/
+cd ~/../pybombs/gr37/src/
 git clone https://github.com/kit-cel/gr-drm.git
 cd gr-drm 
 git checkout drmrx
