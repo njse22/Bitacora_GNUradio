@@ -10,14 +10,14 @@ sudo pip3 install mako requests numpy
 
 # 2. install and configure pybombs 
 
-sudo -H pip3 install pybombs
+sudo pip3 install --upgrade git+https://github.com/gnuradio/pybombs.git
 mkdir pybombs && cd pybombs
 pybombs auto-config 
 
-#pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
-#modified repository
-pybombs recipes add gr-recipes git+https://github.com/njse22/gr-recipes.git
-pybombs recipes add gr-etcetera git+https://github.com/gnuradio/gr-etcetera.git
+# 3. add recipes 
+pybombs recipes add-defaults
+
+# 4. init prefix 
 pybombs prefix init ~/../pybombs/gr37 -R gnuradio-stable
 
 # 5. install gr-drm 
